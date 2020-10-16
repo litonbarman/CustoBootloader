@@ -319,7 +319,7 @@ gdt_start:
                                       ; of the true size 
    dd gdt_start 
 							          ; Start address of our GDT
-  ; Define some handy constants for the GDT segment descriptor offsets , which 
+  ; Define some handy constants for the GDT segment descriptor offsets 
  
    CODE_SEG equ gdt_code - gdt_start 
    DATA_SEG equ gdt_data - gdt_start 
